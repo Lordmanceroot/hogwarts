@@ -1,0 +1,44 @@
+
+* {
+    font-family: 'Henny Penny', cursive;
+    color: #e1c9b5;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+}
+
+body {
+    background: url("https://3dnews.ru/assets/external/illustrations/2021/01/13/1029999/03.jpg") no-repeat fixed;
+    background-size: auto;
+    margin: 10px 0;
+}
+img {
+    border-radius: 7px;
+    box-shadow: 0 0 10px #e1c9b5;
+}
+
+.heroes,
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-hero {
+    margin: 7px;
+}
+
+.image-hero {
+    width: 250px;
+}
+
+.faculties {
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.faculties img {
+    width: 280px;
+}
+
